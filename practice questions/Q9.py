@@ -1,0 +1,39 @@
+#make calculator , take two number from user and choice of operator and give respective output
+num_1=int(input("Enter the number 1 : "))
+num_2=int(input("Enter the number 2 : "))
+operator=input("enter the operator : ")
+
+if operator =="+":
+    print(num_1+num_2)
+elif operator =="-":
+    print(num_1-num_2)
+elif operator =="*":
+    print(num_1*num_2)
+elif operator =="/":
+    print(num_1/num_2)
+elif operator =="**":
+    print(num_1**num_2)
+elif operator =="%":
+    print(num_1%num_2)
+
+
+
+
+
+
+num_1=int(input("enter the number 1 : "))
+num_2=int(input("enter the number 2: "))
+operator = input("enter the operator")
+
+if operator =="+":
+    print(num_1+num_2)
+elif operator =="-":
+    print(num_1-num_2)
+elif operator =="*":
+    print(num_1*num_2)
+elif operator =="/":
+    print(num_1/num_2)    
+elif operator =="**":
+    print(num_1**num_2)
+elif operator =="%":
+    print(num_1%num_2)
