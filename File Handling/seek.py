@@ -9,5 +9,9 @@ with open ("seek.txt",'r')as f:
 
 
 f=open("seek.txt",'r')
-f.seek(4) 
+f.seek(7) 
 print(f.readlines())  
+ 
+
+
+
